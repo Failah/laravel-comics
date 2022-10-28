@@ -1,0 +1,51 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+// this is the top small blue bar
+header>div:first-child {
+    background-color: #0282f9;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+// this is the DC Logo Div
+#navbar>div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    column-gap: 30px;
+    padding: 50px 0px;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// this is the jumbotron container div
+header>div:last-child {
+    height: 400px;
+}
