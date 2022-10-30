@@ -9,6 +9,10 @@ img {
   width: 100%;
 }
 
+header {
+  display: none;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -97,5 +101,22 @@ nav div a {
 
 header > div:last-child {
   height: 400px;
+}
+
+#footer-top {
+  height: 400px;
+  display: flex;
+}
+
+#footer-top .container {
+  display: flex;
+  flex-basis: 50%;
+}
+
+#footer-top .container > div:last-child {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 

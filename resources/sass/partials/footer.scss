@@ -1,0 +1,16 @@
+#footer-top {
+    height: 400px;
+    display: flex;
+}
+
+#footer-top .container {
+    display: flex;
+    flex-basis: 50%;
+}
+
+#footer-top .container>div:last-child {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
