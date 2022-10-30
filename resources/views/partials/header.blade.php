@@ -1,7 +1,7 @@
 <header>
     <div>
         <div class="container top-header">
-            <span>DC POWER VISA</span>ADDITIONAL DC SITES<span></span>
+            <span>DC POWER VISA</span><span>ADDITIONAL DC SITES</span>
         </div>
 
     </div>
@@ -19,10 +19,13 @@
             <div><a href="">VIDEOS</a></div>
             <div><a href="">FANS</a></div>
             <div> <a href="">NEWS</a></div>
-            <div> <a href="">SHOP <span>v</span></a></div>
+            <div id="shop-nav-link"> <a href="">SHOP</a>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
         </nav>
         <div id="search">
-            SEARCH
+            <span>Search</span>
+            <div><i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
     </div>
     <div style="background-image: url({{ asset('images/jumbotron.jpg') }})">

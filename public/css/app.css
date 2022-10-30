@@ -17,6 +17,10 @@ img {
 .top-header {
   display: flex;
   justify-content: flex-end;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  font-size: 0.78rem;
+  padding: 6px 0px;
 }
 
 header > div:first-child {
@@ -38,8 +42,8 @@ header > div:first-child {
 
 nav {
   display: flex;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
   padding: 50px 0px;
 }
 
@@ -49,10 +53,46 @@ nav div {
   align-items: center;
 }
 
+nav div a {
+  text-decoration: none;
+  color: #464646;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.1rem;
+}
+
+#shop-nav-link {
+  display: flex;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+
+#shop-nav-link {
+  color: #0282f9;
+}
+
 #search {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  border-bottom: #0282f9 2px solid;
+  height: 20px;
+  width: 120px;
+  padding-bottom: 6px;
+  margin-top: 50px;
+}
+
+#search span {
+  color: #464646;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.05rem;
+}
+
+#search i {
+  color: #303030;
 }
 
 header > div:last-child {

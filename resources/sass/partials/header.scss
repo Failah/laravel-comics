@@ -6,7 +6,11 @@
 .top-header {
     display: flex;
     justify-content: flex-end;
+    column-gap: 50px;
+    font-size: 0.78rem;
+    padding: 6px 0px;
 }
+
 
 // this is the top small blue bar
 header>div:first-child {
@@ -29,7 +33,7 @@ header>div:first-child {
 
 nav {
     display: flex;
-    column-gap: 30px;
+    column-gap: 40px;
     padding: 50px 0px;
 }
 
@@ -39,10 +43,44 @@ nav div {
     align-items: center;
 }
 
+nav div a {
+    text-decoration: none;
+    color: #464646;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.1rem;
+}
+
+#shop-nav-link {
+    display: flex;
+    column-gap: 12px;
+}
+
+#shop-nav-link {
+    color: #0282f9;
+}
+
 #search {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    column-gap: 8px;
+    border-bottom: #0282f9 2px solid;
+    height: 20px;
+    width: 120px;
+    padding-bottom: 6px;
+    margin-top: 50px;
+}
+
+#search span {
+    color: #464646;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: -0.05rem;
+}
+
+#search i {
+    color: #303030;
 }
 
 // this is the jumbotron container div
