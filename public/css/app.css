@@ -198,6 +198,42 @@ a:hover {
   cursor: pointer;
 }
 
+.shop-banner {
+  background-color: #0282f9;
+}
+
+.shop-banner .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 55px 0px;
+}
+
+.shop-banner .container div {
+  display: flex;
+  align-items: center;
+}
+
+.shop-banner .container div img {
+  height: 55px;
+}
+
+.shop-banner .container div span {
+  margin-left: 15px;
+  color: white;
+}
+
+.shop-banner .container div .card {
+  height: 55px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.shop-banner .container .card:nth-child(5) div img {
+  height: 35px;
+}
+
 .comic-card-img:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -209,6 +245,16 @@ button:hover {
 }
 
 button:active {
+  transform: scale(0.95);
+}
+
+.card:hover {
+  cursor: pointer;
+  filter: brightness(135%);
+  transform: scale(1.1);
+}
+
+.card:active {
   transform: scale(0.95);
 }
 
